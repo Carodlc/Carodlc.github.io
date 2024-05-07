@@ -1,74 +1,187 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-   
-    <script>
-        var accessToken = "55d8ca2d0ad882229948a0260efaec96faac82d8";
-        var deviceID = "36001f000247363339343638"
-        var url = "https://api.particle.io/v1/devices/" + deviceID + "/servo";
-        
-        function switchOn()
-        {
-            $.post(url, {params: "on", access_token: accessToken });
-        }  
-        
-        function switchOff()
-        {
-            $.post(url, {params: "off", access_token: accessToken });
-        }  
-        
-        </script>
-   
-   <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-image: url('https://www.depeces.com/wp-content/uploads/2020/01/Acuarios-marinos.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        h1 {
-            color: #ffffff;
-        }
-        .switch-container {
-            display: inline-block;
-            padding: 100px;
-            background-color: rgba(3, 8, 56, 0.548);
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        input[type="button"] {
-            padding: 10px 20px;
-            margin: 5px;
-            background-color: rgb(29, 108, 12);
-            color: white;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-            transition: background-color 0.3s;
-        }
-        input[type="button"]:hover {
-            background-color: #872e2e8b;
-        }
-        input[type="button"].on {
-            background-color: #14a143;
-        }
-
-        input[type="button"].off {
-            background-color: #cd0e0e;
-        }
-    </style>
-</head>
-<body>
-   
-    <div class="switch-container">
-        <h1>ALIMENTADOR DE PECES</h1>
-        <input type="button" onClick="switchOn()" class="on" value="ALIMENTAR"/>
-        <input type="button" onClick="switchOff()" class="off" value="NO ALIMENTAR"/>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto investigación</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="flex-column-d">
+        <span class="perla-nieto-solis">Perla Nieto Solis</span
+        ><span class="rogelio-garcia-zarate">Rogelio García Zárate</span
+        ><span class="conoce-nuestro-proyecto">conoce nuestro proyecto</span
+        ><span class="por-que-es-importante"
+          >¿Por qué es importante la Computación Cuántica en tu Formación?</span
+        ><span class="beneficios-y-objetivos">Beneficios y Objetivos:</span
+        ><span class="aplicaciones">Aplicaciones</span
+        ><span class="proyecto-agraria">Proyecto Agraria</span>
+        <div class="la-computacion-cuantica">
+          <span class="la">La</span
+          ><span class="computacion-cuantica"> computación cuántica </span
+          ><span class="tambien-tiene-utilidades"
+            >también tiene utilidades en el pujante campo del aprendizaje
+            automático (el llamado quantum machine learning), por ejemplo,
+            dentro del proyecto Agraria. “Buscamos desarrollar un predictor
+            cuántico para analizar el rendimiento de los cultivos a través de
+            imágenes de satélites en varias bandas del espectro
+            electromagnético”, dice Ángela Ribeiro, investigadora del Centro de
+            Automática y Robótica del CSIC, “así podremos predecir, con solo
+            analizar la imagen, la cantidad de cosecha que dará ese terreno, por
+            ejemplo, en toneladas de maíz”. <br
+          /></span>
+        </div>
+        <div class="image"></div>
+        <span class="text-b"
+          >Es una investigación realizada en colaboración con el grupo
+          empresarial GMV. Está por ver si el método cuántico es más eficiente
+          que el clásico. “El sistema cuántico, por lo pronto, permite trabajar
+          a mayor velocidad y con más información. La computación clásica está
+          llegando a sus límites, así que esperamos obtener estas ventajas de la
+          cuántica”, añade Ribeiro, “este caso de uso, de cierta complejidad,
+          permitirá avanzar en nuestro conocimiento”.</span
+        >
+        <div class="rectangle">
+          <span class="deja-tu-opinion">Deja tu opinion</span
+          ><span class="contacto">Contacto</span>
+          <div class="flex-row-a">
+            <div class="rectangle-1"></div>
+            <span class="comentario">Comentario:</span>
+            <div class="rectangle-2"></div>
+            <span class="nombre">Nombre:</span>
+            <div class="rectangle-3"></div>
+            <span class="especialidad">Especialidad:</span>
+            <div class="rectangle-4"></div>
+            <span class="correo">Correo:</span>
+          </div>
+        </div>
+        <div class="ellipse"></div>
+        <span class="analisis-interes-necesidad"
+          >Análisis del interés y la necesidad de enseñar computación cuántica
+          en la formación de estudiantes y profesores de ingeniería en sistemas
+          computacionales.</span
+        >
+        <div class="image-5"></div>
+        <span class="research-project"
+          >Nuestra página web se dedica a abordar nuestro proyecto de
+          investigación con tema del análisis del interés y la necesidad de
+          enseñar computación cuántica en la formación de estudiantes y maestros
+          de ingeniería en sistemas computacionales. Exploramos cómo esta
+          disciplina emergente está influyendo en el ámbito educativo y
+          preparando a los profesionales del futuro para los desafíos
+          tecnológicos.</span
+        ><span class="project-members">Integrantes del proyecto:</span
+        ><span class="member-name">Alejandra Estefania Zurita Castillo</span
+        ><span class="member-name-6">Carolina Ramos de la Cruz</span>
+        <div class="pic-3"></div>
+        <div class="quantum-computing-study">
+          <span class="introduction">La </span
+          ><span class="quantum-computing">computación cuántica</span
+          ><span class="text-19"
+            >, una disciplina emergente que utiliza los principios de la
+            mecánica cuántica para procesar información de manera
+            revolucionaria, está ganando cada vez más atención debido a su
+            potencial para resolver problemas complejos de manera más eficiente
+            que los sistemas clásicos. En este contexto, este estudio busca
+            explorar la importancia de integrar la computación cuántica en los
+            programas educativos de ingeniería en sistemas computacionales para
+            preparar a los estudiantes para las demandas del futuro
+            tecnológico.</span
+          >
+        </div>
+        <div class="pic-4">
+          <span class="general-syllabus">Temario General:</span>
+        </div>
+        <div class="introduction-quantum-computing">
+          <span class="text-1b">Introducción a la Computación Cuántica:</span
+          ><span class="quantum-computing-fundamentals">
+            Fundamentos de la computación cuántica, comparación con la
+            computación clásica.</span
+          >
+        </div>
+        <div class="quantum-mechanics-principles">
+          <span class="principios-mecanica-cuantica"
+            >Principios de la Mecánica Cuántica:</span
+          ><span class="conceptos-basicos-cuantica">
+            Conceptos básicos de la mecánica cuántica necesarios para entender
+            la computación cuántica.</span
+          >
+        </div>
+        <div class="algoritmos-cuanticos">
+          <span class="algoritmos-cuanticos-7">Algoritmos Cuánticos: </span
+          ><span class="estudio-algoritmos-cuantica"
+            >Estudio de algoritmos diseñados específicamente para ejecutarse en
+            computadoras cuánticas.</span
+          >
+        </div>
+        <div class="implementacion-circuitos-cuantica">
+          <span class="implementacion-circuitos-cuantica-8"
+            >Implementación de Circuitos Cuánticos:</span
+          ><span class="disenar-ejecutar-circuitos">
+            Cómo diseñar y ejecutar circuitos cuánticos utilizando lenguajes de
+            programación cuántica como Qiskit o Quipper.</span
+          >
+        </div>
+        <div class="aplicaciones-computacion-cuantica">
+          <span class="aplicaciones-computacion-cuantica-9"
+            >Aplicaciones de la Computación Cuántica:</span
+          ><span class="exploracion-aplicaciones-cuantica">
+            Exploración de posibles aplicaciones prácticas de la computación
+            cuántica en áreas como criptografía, simulación molecular y
+            optimización.</span
+          >
+        </div>
+        <div class="fundamentos-computacion-cuantica">
+          <span class="fundamentos-computacion-cuantica-a"
+            >Comprender los fundamentos de la computación cuántica: </span
+          ><span class="adquirir-conocimientos-sistemas"
+            >Adquirir conocimientos sólidos sobre los principios que rigen el
+            comportamiento de los sistemas cuánticos.</span
+          >
+        </div>
+        <div class="object-other"></div>
+        <div class="explorar-algoritmos-cuanticos">
+          <span class="explorar-algoritmos-cuanticos-b"
+            >Explorar algoritmos y técnicas cuánticas:</span
+          ><span class="familiarizarse-algoritmos-cuanticos">
+            Familiarizarse con algoritmos cuánticos como el algoritmo de Grover
+            y el algoritmo de Shor, y comprender cómo difieren de sus
+            contrapartes clásicas. <br
+          /></span>
+        </div>
+        <div class="aplicar-conocimientos-criptografia">
+          <span class="aplicar-conocimientos-criptografia-c"
+            >Aplicar conocimientos en áreas como criptografía y
+            simulación:</span
+          ><span class="entender-computacion-cuantica">
+            Entender cómo la computación cuántica puede revolucionar la
+            seguridad de la información y la capacidad de simulación de sistemas
+            cuánticos complejos. <br
+          /></span>
+        </div>
+        <div class="prepararse-tecnologias-cuanticas">
+          <span class="prepararse-tecnologias-cuanticas-d"
+            >Prepararse para futuras tecnologías cuánticas:</span
+          ><span class="estar-vanguardia-tecnologia">
+            Estar en la vanguardia de la tecnología, adquiriendo habilidades y
+            conocimientos que serán fundamentales en el futuro de la informática
+            y otras disciplinas relacionadas.</span
+          >
+        </div>
+        <span class="informacion-proyectos-cuantica"
+          >Esta informacion la sacamos de este articulo, si deseas saber sobre
+          mas proyectos que utilizaron computacion cuantica puedes dirigirte al
+          link.</span
+        ><span class="informacion-proyectos-cuantica-e">
+          <br />https://novaciencia.es/computacion-cuantica-tres-proyectos-espanoles-para-convertirla-en-una-realidad/
+          <br
+        /></span>
+      </div>
+      <div class="ellipse-f"></div>
     </div>
-
-</body>
+    <!-- Generated by Codia AI - https://codia.ai/ -->
+  </body>
 </html>
