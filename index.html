@@ -1,97 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="raphael-2.1.4.min.js"></script>
-<script src="justgage.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+   
+    <script>
+        var accessToken = "55d8ca2d0ad882229948a0260efaec96faac82d8";
+        var deviceID = "36001f000247363339343638"
+        var url = "https://api.particle.io/v1/devices/" + deviceID + "/servo";
+        
+        function switchOn()
+        {
+            $.post(url, {params: "on", access_token: accessToken });
+        }  
+        
+        function switchOff()
+        {
+            $.post(url, {params: "off", access_token: accessToken });
+        }  
+        
+        </script>
+   
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('https://www.depeces.com/wp-content/uploads/2020/01/Acuarios-marinos.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        .switch-container {
+            display: inline-block;
+            padding: 100px;
+            background-color: rgba(3, 8, 56, 0.548);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="button"] {
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: rgb(29, 108, 12);
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        input[type="button"]:hover {
+            background-color: #872e2e8b;
+        }
+        input[type="button"].on {
+            background-color: #14a143;
+        }
 
-<script>
-var accessToken = "55d8ca2d0ad882229948a0260efaec96faac82d8";
-var deviceID = "36001f000247363339343638"
-var url = "https://api.particle.io/v1/devices/" + deviceID + "/gradosC";
-var url1 = "https://api.particle.io/v1/devices/" + deviceID + "/gradosF";
-var url2= "https://api.particle.io/v1/devices/" + deviceID + "/humedad";
-
-function callback(data, status){
-    if (status == "success") {
-        temp = parseFloat(data.result);
-        temp = temp.toFixed(2);
-        g.refresh(temp);
-        setTimeout(getReading, 1000);
-    }
-    else {
-        alert("There was a problem");
-    }
-}
-function getReading(){
-    $.get(url, {access_token: accessToken}, callback);
-}
-
-function callback2(data, status){
-    if (status == "success") {
-        temp = parseFloat(data.result);
-        temp = temp.toFixed(2);
-        g2.refresh(temp);
-        setTimeout(getReading2, 1000);
-    }
-    else {
-        alert("There was a problem");
-    }
-}
-function getReading2(){
-    $.get(url2, {access_token: accessToken}, callback2);
-}
-
-function callback3(data, status){
-    if (status == "success") {
-        temp = parseFloat(data.result);
-        temp = temp.toFixed(2);
-        g3.refresh(temp);
-        setTimeout(getReading3, 1000);
-    }
-    else {
-        alert("There was a problem");
-    }
-}
-function getReading3(){
-    $.get(url1, {access_token: accessToken}, callback3);
-}
-</script>
-</head>  
-
+        input[type="button"].off {
+            background-color: #cd0e0e;
+        }
+    </style>
+</head>
 <body>
-<div id="gauge" class="200x160px"></div>
-<div id="gauge2" class="200x160px"></div>
-<div id="gauge3" class="200x160px"></div>
-
-<script>
-var g = new JustGage({
-    id: "gauge",
-    value: 0,
-    min: 0,
-    max: 100,
-    title: "Grados C"
-});
-getReading();
-
-var g2 = new JustGage({
-    id: "gauge2",
-    value: 0,
-    min: 0,
-    max: 200,
-    title: "Humedad"
-});
-getReading2();
-
-var g3 = new JustGage({
-    id: "gauge3",
-    value: 0,
-    min: 0,
-    max: 200,
-    title: "Grados F"
-});
-getReading3();
-</script>
+   
+    <div class="switch-container">
+        <h1>ALIMENTADOR DE PECES</h1>
+        <input type="button" onClick="switchOn()" class="on" value="ALIMENTAR"/>
+        <input type="button" onClick="switchOff()" class="off" value="NO ALIMENTAR"/>
+    </div>
 
 </body>
 </html>
