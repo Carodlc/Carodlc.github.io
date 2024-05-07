@@ -1,0 +1,887 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1366px;
+  height: 3582px;
+  margin: 0 auto;
+  background: #120720;
+  overflow: hidden;
+}
+.flex-column-d {
+  position: absolute;
+  width: 1607px;
+  height: 3905px;
+  top: -381px;
+  left: -361px;
+  font-size: 0px;
+  z-index: 37;
+}
+.perla-nieto-solis {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 893px 0 0 512px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.rogelio-garcia-zarate {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 14px 0 0 512px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.conoce-nuestro-proyecto {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 345px;
+  height: 23px;
+  margin: 14px 0 0 863px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.por-que-es-importante {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 22px 0 0 773px;
+  color: #fede3a;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.beneficios-y-objetivos {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 796px 0 0 953px;
+  color: #9780da;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.aplicaciones {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 620px 0 0 992px;
+  color: #fede3a;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
+.proyecto-agraria {
+  display: block;
+  position: relative;
+  height: 32px;
+  margin: 47px 0 0 946px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31.5px;
+  text-align: left;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 31;
+}
+.la-computacion-cuantica {
+  position: relative;
+  width: 885px;
+  height: 158px;
+  margin: 55px 0 0 602px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 32;
+}
+.la {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+}
+.computacion-cuantica {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+}
+.tambien-tiene-utilidades {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+}
+.image {
+  position: relative;
+  width: 540px;
+  height: 391px;
+  margin: -5px 0 0 776px;
+  background: url(./assets/images/3ab4557f99057e4658cd649dbb2ee62c73624d46.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 35;
+}
+.text-b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 885px;
+  height: 115px;
+  margin: 24px 0 0 602px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 33;
+}
+.rectangle {
+  position: relative;
+  width: 1065px;
+  height: 322px;
+  margin: 269px 0 0 512px;
+  font-size: 0px;
+  background: rgba(79, 53, 153, 0.18);
+  z-index: 37;
+  overflow: visible auto;
+  border-radius: 100px;
+}
+.deja-tu-opinion {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 22px 0 0 472px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 38;
+}
+.contacto {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 0 0 0 494px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 39;
+}
+.flex-row-a {
+  position: relative;
+  width: 876px;
+  height: 166px;
+  margin: 9px 0 0 57px;
+  z-index: 47;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 248px;
+  height: 35px;
+  top: 0;
+  left: 73px;
+  background: #130821;
+  z-index: 45;
+  border-radius: 30px;
+}
+.comentario {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 3px;
+  left: 425px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 44;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 338px;
+  height: 163px;
+  top: 3px;
+  left: 538px;
+  background: #130821;
+  z-index: 43;
+  border-radius: 30px;
+}
+.nombre {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 33px;
+  top: 4px;
+  left: 0;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 40;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 206px;
+  height: 35px;
+  top: 64px;
+  left: 115px;
+  background: #130821;
+  z-index: 47;
+  border-radius: 30px;
+}
+.especialidad {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 33px;
+  top: 67px;
+  left: 0;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 41;
+}
+.rectangle-4 {
+  position: absolute;
+  width: 248px;
+  height: 35px;
+  top: 128px;
+  left: 73px;
+  background: #130821;
+  z-index: 46;
+  border-radius: 30px;
+}
+.correo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 33px;
+  top: 130px;
+  left: 0;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 42;
+}
+.ellipse {
+  position: absolute;
+  width: 592px;
+  height: 592px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/90a5162b-1dee-40e1-9e4b-37362878fa38.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(236.5px);
+  z-index: 1;
+  border-radius: 50%;
+}
+.analisis-interes-necesidad {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 1065px;
+  height: 35px;
+  top: 420px;
+  left: 512px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 24.207px;
+  text-align: center;
+  white-space:o wrap;
+  z-index: 5;
+}
+.image-5 {
+  position: absolute;
+  width: 345px;
+  height: 342px;
+  top: 529px;
+  left: 1232px;
+  background: url(./assets/images/4b3b3c4e-25f9-428e-afe9-d9ead85fbaa8.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.research-project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 615px;
+  height: 88px;
+  top: 603px;
+  left: 512px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 6;
+}
+.project-members {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 786px;
+  left: 512px;
+  color: #1caee4;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.member-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 823px;
+  left: 512px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+.member-name-6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 860px;
+  left: 512px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.pic-3 {
+  position: absolute;
+  width: 249px;
+  height: 249px;
+  top: 1056px;
+  left: 561px;
+  background: url(./assets/images/35227a75736f05e1f551d09a995f733a9f0672e1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.quantum-computing-study {
+  position: absolute;
+  width: 680px;
+  height: 161px;
+  top: 1100px;
+  left: 795px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: center;
+  z-index: 14;
+}
+.introduction {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: center;
+}
+.quantum-computing {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  text-align: center;
+}
+.text-19 {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: center;
+}
+.pic-4 {
+  position: absolute;
+  width: 467px;
+  height: 467px;
+  top: 1364px;
+  left: 810px;
+  background: url(./assets/images/206bd3ca8fa51cb64dc521cdf524fe55dfb7d3a5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.general-syllabus {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 21px;
+  left: 162px;
+  color: #1caee4;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.introduction-quantum-computing {
+  position: absolute;
+  width: 775px;
+  height: 46px;
+  top: 1439px;
+  left: 646px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+  z-index: 18;
+}
+.text-1b {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: center;
+}
+.quantum-computing-fundamentals {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+}
+.quantum-mechanics-principles {
+  position: absolute;
+  width: 809px;
+  height: 46px;
+  top: 1507px;
+  left: 640px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+  z-index: 19;
+}
+.principios-mecanica-cuantica {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: center;
+}
+.conceptos-basicos-cuantica {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+}
+.algoritmos-cuanticos {
+  position: absolute;
+  width: 723px;
+  height: 46px;
+  top: 1575px;
+  left: 683px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+  z-index: 20;
+}
+.algoritmos-cuanticos-7 {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: center;
+}
+.estudio-algoritmos-cuantica {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+}
+.implementacion-circuitos-cuantica {
+  position: absolute;
+  width: 948px;
+  height: 46px;
+  top: 1643px;
+  left: 570px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+  z-index: 21;
+}
+.implementacion-circuitos-cuantica-8 {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: center;
+}
+.disenar-ejecutar-circuitos {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+}
+.aplicaciones-computacion-cuantica {
+  position: absolute;
+  width: 1126px;
+  height: 46px;
+  top: 1711px;
+  left: 481px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+  z-index: 22;
+}
+.aplicaciones-computacion-cuantica-9 {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: center;
+}
+.exploracion-aplicaciones-cuantica {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+}
+.fundamentos-computacion-cuantica {
+  position: absolute;
+  width: 490px;
+  height: 105px;
+  top: 1967px;
+  left: 962px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 24;
+}
+.fundamentos-computacion-cuantica-a {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+}
+.adquirir-conocimientos-sistemas {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+}
+.object-other {
+  position: absolute;
+  width: 487px;
+  height: 387px;
+  top: 1985px;
+  left: 475px;
+  background: url(./assets/images/a15998d1127eb7b5ec340a389624a5b8f15d1e32.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 29;
+}
+.explorar-algoritmos-cuanticos {
+  position: absolute;
+  width: 568px;
+  height: 140px;
+  top: 2062px;
+  left: 962px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 25;
+}
+.explorar-algoritmos-cuanticos-b {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+}
+.familiarizarse-algoritmos-cuanticos {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+}
+.aplicar-conocimientos-criptografia {
+  position: absolute;
+  width: 645px;
+  height: 140px;
+  top: 2192px;
+  left: 962px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 26;
+}
+.aplicar-conocimientos-criptografia-c {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+}
+.entender-computacion-cuantica {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+}
+.prepararse-tecnologias-cuanticas {
+  position: absolute;
+  width: 636px;
+  height: 105px;
+  top: 2322px;
+  left: 962px;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 27;
+}
+.prepararse-tecnologias-cuanticas-d {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+}
+.estar-vanguardia-tecnologia {
+  position: relative;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+}
+.informacion-proyectos-cuantica {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 657px;
+  height: 46px;
+  top: 3391px;
+  left: 512px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  z-index: 34;
+}
+.informacion-proyectos-cuantica-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 872px;
+  height: 69px;
+  top: 3425px;
+  left: 512px;
+  color: #ffffff;
+  font-family: Outfit, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+  text-align: left;
+  text-decoration: underline;
+  z-index: 36;
+}
+.ellipse-f {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: 444px;
+  left: 1216px;
+  background: url(./assets/images/dd16986b-8859-4a77-b74a-1917d48b177c.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(236.5px);
+  border-radius: 50%;
+}
